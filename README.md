@@ -1,7 +1,7 @@
 # Field Flow Estimation of Vehicles
 Code for the PyTorch implementation of "Field Flow Estimation of Vehicles" for vehicle data which includes the flow fields like velocity and pressure. I have implemented 2 model Encoder-Decoder model and Style GAN model. So, both are giving the output pretty good so its hard to mention which is performing more better because each model have some pros and cons. I have also provided pretrained weights for each model you can use them to finetune the model incase you requirement to run the model is not satisfied.
 
-# Abstract
+## Abstract
 In the automobile industry, flow fields, including velocity and pressure fields, are commonly utilized as references for vehicle form design to ensure steering stability and energy conservation. Flow fields are typically estimated using computational fluid dynamics (CFD) simulations, which are time-consuming and costly. Designers want a more efficient and engaging technique for advanced shape discussion and design. In order to do this, we present a fast estimation approach based on 3D convolutional neural networks. To boost estimation efficiency, we use a style extractor to gather sufficient deep features of each vehicle design and apply them using adaptive instance normalisation. In addition, the estimation model is trained using a proposed loss function that consists mostly of a slice-weighted square and a combination loss function. Our suggested method outperforms, particularly in wake regions and near the vehicle surface flow field estimates. As a result, the suggested method enables for the design of vehicle forms while maintaining optimal aerodynamic performance in significantly less time than extended CFD simulations.
 
 # Dataset
