@@ -1,4 +1,4 @@
-# Streameline X : Visualizing Vehicle Aerodynamics
+# Streameline X : Estimating Vehicle Aerodynamics
 Code for the PyTorch implementation of "Field Flow Estimation of Vehicles" for vehicle data which includes the flow fields like velocity and pressure. I have implemented 2 model Encoder-Decoder model and Style GAN model. So, both are giving the output pretty good so its hard to mention which is performing more better because each model have some pros and cons. I have also provided pretrained weights for each model you can use them to finetune the model incase you requirement to run the model is not satisfied.
 
 ## Abstract
