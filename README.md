@@ -23,3 +23,9 @@ To train the particualar model first install all the packages required and then 
 
 ## Testing
 To test the model you have to make some changes in the dataloader.py take input velocity and pressure vector as a array of list and run the test.py and binary mask of each case is present , where one means the region that allows air to pass through, was added into the dataset. so you can also use that in one of the plots to gain more insights.
+
+## Output on Test Data for the best weights of Style GAN model.
+![GAN](https://github.com/AryanA3735/Streameline-X-Estimating-Vehicle-Aerodynamics/assets/98833258/b316687c-025e-4fb5-8df9-1cdf201669a8)
+
+## Output on Test Data for the best weights of Encoder Decoder model.
+![Encoder Decoder](https://github.com/AryanA3735/Streameline-X-Estimating-Vehicle-Aerodynamics/assets/98833258/d1b05e40-6bf8-43de-934a-b29a20ae584c)
